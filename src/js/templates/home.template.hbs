@@ -1,0 +1,24 @@
+<ul class="row-fluid block-grid-6">
+    {{#each arrayData}}
+		<li style="list-style: none;" class="col-lg-3">
+			<div class="card">
+				<img class="card-img-top center-block" src={{thumbnailUrl}} alt="Card image cap">
+				<div class="card-block">
+					<h4 class="card-title">{{title}}</h4>
+					<div>
+						<p class="card-text" style="text-decoration: line-through;
+						display: inline;">
+						$150.00 mxn
+						</p>
+						<p class="card-text" style="display: inline;">
+						 $100.00 mxn
+						</p>
+					</div>
+					<h5 class="card-title" style="color: red">Precio $100.00 mxn</h5>
+					<p class="card-text">{{id}}</p>
+				</div>
+			</div>
+		</li>
+    {{/each}}
+</ul>
+

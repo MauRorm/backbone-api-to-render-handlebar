@@ -1,0 +1,20 @@
+{
+  "name": "gulp-backbone",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Charca"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Charca/gulp-backbone",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "3.3.4"
+  }
+}
